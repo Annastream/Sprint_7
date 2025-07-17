@@ -3,6 +3,7 @@ import pytest
 import allure
 from data import  Url, Flags
 
+
 class TestOrderList:
     @allure.title('Получение списка заказов. Эндпоинт: /api/v1/orders')
     def test_successful_get_order_list(self):
